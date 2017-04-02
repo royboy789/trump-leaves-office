@@ -11,6 +11,9 @@
 			font-size: 5em;
 			line-height: 100vh;
 		}
+		#years {
+			color: red;
+		}
 	</style>
 	<script>
 		// Set the date we're counting down to

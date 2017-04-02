@@ -1,6 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
+<html lang="en">
 <html>
 <head>
+	<title>How much time till Trump leaves office?</title>
+	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
 	<style>
 		body {
@@ -38,9 +41,9 @@
 
 			document.getElementById("toolong").innerHTML = '';
 			document.getElementById("years").innerHTML = years + " years ";
-			document.getElementById("days").innerHTML = days + " years ";
-			document.getElementById("hours").innerHTML = hours + " years ";
-			document.getElementById("seconds").innerHTML = seconds + " years ";
+			document.getElementById("days").innerHTML = days + " days ";
+			document.getElementById("hours").innerHTML = hours + " hours ";
+			document.getElementById("seconds").innerHTML = seconds + " seconds";
 
 			// If the count down is finished, write some text
 			if (distance < 0) {

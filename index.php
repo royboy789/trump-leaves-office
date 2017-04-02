@@ -43,6 +43,7 @@
 			document.getElementById("years").innerHTML = years + " years ";
 			document.getElementById("days").innerHTML = days + " days ";
 			document.getElementById("hours").innerHTML = hours + " hours ";
+			document.getElementById("minutes").innerHTML = minutes + " minutes ";
 			document.getElementById("seconds").innerHTML = seconds + " seconds";
 
 			// If the count down is finished, write some text
@@ -60,6 +61,7 @@
 		<span id="years"></span>
 		<span id="days"></span>
 		<span id="hours"></span>
+		<span id="minutes"></span>
 		<span id="seconds"></span>
 	</h1>
 </body>

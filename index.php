@@ -33,7 +33,7 @@
 			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-			// Display the result in the element with id="demo"
+			document.getElementById("toolong").innerHTML = '';
 			document.getElementById("years").innerHTML = years + " years ";
 			document.getElementById("days").innerHTML = days + " years ";
 			document.getElementById("hours").innerHTML = hours + " years ";
@@ -50,6 +50,7 @@
 
 <body>
 	<h1 class="text-center">
+		<span id="toolong">Calculating...</span>
 		<span id="years"></span>
 		<span id="days"></span>
 		<span id="hours"></span>

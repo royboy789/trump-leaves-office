@@ -68,7 +68,7 @@
 			document.getElementById("minutes").innerHTML = minutes + " minutes ";
 			document.getElementById("seconds").innerHTML = seconds + " seconds";
 
-			twitter_url = 'https://twitter.com/intent/tweet?text=' + years + ' years ' + days + ' days ' + hours + ' hours&hashtags=FinalTrumpCountdown';
+			twitter_url = 'https://twitter.com/intent/tweet?text=' + years + ' years ' + days + ' days ' + hours + ' hours&hashtags=FinalTrumpCountdown+http%3A%2F%2Ftimetilltrumpleavesoffice.com';
 			console.log( twitter_url );
 			var link = document.getElementById('tweet-event');
 			link.setAttribute('href', twitter_url );

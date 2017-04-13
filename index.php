@@ -72,7 +72,7 @@
 			document.getElementById("minutes").innerHTML = minutes + " minutes ";
 			document.getElementById("seconds").innerHTML = seconds + " seconds";
 
-			twitter_url = 'https://twitter.com/intent/tweet?text=' + years + ' years ' + days + ' days ' + hours + ' hours&hashtags=TrumpFinalCountdown+http%3A%2F%2Ftimetilltrumpleavesoffice.com';
+			twitter_url = 'https://twitter.com/intent/tweet?text=' + years + ' years ' + days + ' days ' + hours + ' hours&hashtags=TrumpFinalCountdown+http%3A%2F%2Ftrumpfinalcountdown.com';
 			console.log( twitter_url );
 			var link = document.getElementById('tweet-event');
 			link.setAttribute('href', twitter_url );
@@ -89,7 +89,7 @@
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="#FinalTrumpCountdown" />
 	<meta name="twitter:description" content='Final Trump Countdown - Time till Trump is out!' />
-	<meta name="twitter:image" content="http://timetilltrumpleavesoffice.com/tweet-card.jpg" />
+	<meta name="twitter:image" content="http://trumpfinalcountdown.com/tweet-card.jpg" />
 </head>
 
 <body>
